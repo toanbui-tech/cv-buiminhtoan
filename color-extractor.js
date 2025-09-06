@@ -152,6 +152,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         
     } catch (error) {
         console.log('Could not extract colors from image, using default colors');
+        console.error('Color extraction error:', error);
+        
         // Fallback to default colors if extraction fails
+        const root = document.documentElement;
+        root.style.setProperty('--primary-color', '#6366f1');
+        root.style.setProperty('--secondary-color', '#f59e0b');
+        root.style.setProperty('--accent-color', '#10b981');
     }
 });
