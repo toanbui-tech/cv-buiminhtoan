@@ -13,16 +13,24 @@ class ColorExtractor {
             img.crossOrigin = 'anonymous';
             
             img.onload = () => {
-                this.canvas.width = img.width;
-                this.canvas.height = img.height;
-                this.ctx.drawImage(img, 0, 0);
-                
-                const imageData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
-                const colors = this.getDominantColors(imageData);
-                resolve(colors);
+                try {
+                    this.canvas.width = img.width;
+                    this.canvas.height = img.height;
+                    this.ctx.drawImage(img, 0, 0);
+                    
+                    const imageData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
+                    const colors = this.getDominantColors(imageData);
+                    resolve(colors);
+                } catch (error) {
+                    console.log('Canvas error, using fallback colors');
+                    resolve(['#6366f1', '#f59e0b', '#10b981']);
+                }
             };
             
-            img.onerror = reject;
+            img.onerror = () => {
+                console.log('Image load error, using fallback colors');
+                resolve(['#6366f1', '#f59e0b', '#10b981']);
+            };
             img.src = imagePath;
         });
     }
