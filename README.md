@@ -21,6 +21,12 @@
 - Project: first-contributions
 - Issue: spring-cloud/spring-cloud-gateway
 # Work Experience:
+## MEMBERSHIP (Sep 2025 -Current) 
+- An independent application that enables users to register for memberships across multiple providers.
+### Key Contributions:
+- Initiated and architected the project from scratch.
+- Selected the technology stack and development tools.
+- Managed and led the end-to-end development process.
 ## NEXBUS (Jun 2024 - Current)
 - A trusted ticketing solution serving tens of thousands daily, partnering with Dam Sen Water Park, Nha Hat Cai Luong Ha Noi, Madame De Dalat, and more to streamline sales and enhance customer experience.
 ### Key Contributions:
@@ -55,3 +61,4 @@
 - Implemented Single Sign-On (SSO) authentication, improving security and user experience.
 # THE END
 *“Finally, I'd want to say Thank You for reviewing my CV. I'm excited to collaborate, solve challenging problems, and create meaningful innovations!”*
+
