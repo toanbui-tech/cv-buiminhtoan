@@ -1,8 +1,3 @@
-# EDUCATION
-## HUTECH University
-- Sep 2019 - Sep 2023
-- Major: Software Technology
-- GPA: 3.12/4.0
 # SKILL:
 - Programming Languages: Java, JavaScript, TypeScript
 - Backend Development: Spring Boot, Node.js, Loopback, MedusaJS
@@ -21,12 +16,24 @@
 - Project: first-contributions
 - Issue: spring-cloud/spring-cloud-gateway
 # Work Experience:
-## **** (Sep 2025 -Current) 
+---
+## ****_Document (Sep 2025 -Current) 
+- A comprehensive documentation system for the **** platform.
+### Key Contributions:
+- Set up the project from scratch, including CI/CD pipeline and deployment automation.
+- Designed the documentation architecture to effectively serve two target audiences: developers and system operators.
+
+---
+
+## ****_Membership (Sep 2025 -Current) 
 - An independent application that enables users to register for memberships across multiple providers.
 ### Key Contributions:
 - Initiated and architected the project from scratch.
 - Selected the technology stack and development tools.
 - Managed and led the end-to-end development process.
+
+---
+
 ## **** (Jun 2024 - Current)
 - A trusted ticketing solution serving tens of thousands daily, partnering with Dam Sen Water Park, Nha Hat Cai Luong Ha Noi, Madame De Dalat, and more to streamline sales and enhance customer experience.
 ### Key Contributions:
@@ -36,6 +43,9 @@
 - Set up Minio for media storage in attendee profiles.
 - Debugged and enhanced features on the Back Office system.
 - Critical Fix: Resolved a severe issue affecting inventory data accuracy for partners.
+
+---
+
 ## **** (Sep 2023 - Jun 2024)
 - A large-scale e-commerce project currently live on 20+ banking apps nationwide.
 ### Key Contributions:
@@ -44,22 +54,35 @@
 - Researched, implemented, and tested security solutions to prevent XSS vulnerabilities across multiple system components.
 - Analyzed documentation and collaborated with team members to clarify and resolve issues.
 - Performed security testing using Burp Suite and wrote automated tests with Playwright.
+
+---
+
 ## **** (May 2023 - Sep 2023)
 - An international aviation project serving millions of users with over 50,000 flight bookings per day.
 ### Key Contributions:
 - Developed flight search API and seat selection API, both critical components in the ticket booking flow.
 - Created test cases and performed API testing using Postman to ensure functionality and reliability.
+
+---
+
 ## **** (Apr 2023 - Oct 2023)
 - A project developing sports and entertainment event features, actively used by customers daily on the VNPAY e-wallet.
 ### Key Contributions:
 - Developed the email notification feature for customers when booking tickets for the Vietnam vs. Hong Kong men's football match.
 ### Achievements:
 - Successfully launched the feature, ensuring a seamless experience for users with rapid development and deployment.
+
+---
+
 ## **** (Apr 2024 -  Apr 2024)
 - A ticketing solution developed for live shows, amusement parks, and various tourist attractions worldwide, ensuring a seamless booking experience for customers.
 ### Key Contributions:
 - Implemented Single Sign-On (SSO) authentication, improving security and user experience.
+
+---
+
 # THE END
 *“Finally, I'd want to say Thank You for reviewing my CV. I'm excited to collaborate, solve challenging problems, and create meaningful innovations!”*
+
 
 
